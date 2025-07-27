@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Portal to Magic</title>
+    <link rel="stylesheet" href="hpt.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=IM+Fell+English+SC&family=Uncial+Antiqua&family=MedievalSharp&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="starry-sky">
+        <div class="stars stars1"></div>
+        <div class="stars stars2"></div>
+        <div class="stars stars3"></div>
+    </div>
+
+    <div class="scroll-container main-page-scroll">
+        <header class="main-header">
+            <div class="header-decoration top-decoration"></div>
+            <h1>Welcome, Seeker of Wonders</h1>
+            <div class="header-decoration bottom-decoration"></div>
+        </header>
+
+        <main class="content-area">
+            <section class="introduction">
+                <p class="magic-glow">Your journey into the arcane begins now.</p>
+                <p>Beyond the veil of the mundane lies a world brimming with ancient spells, forgotten lore, and creatures of myth.</p>
+                <p>Dare to step through the portal?</p>
+            </section>
+
+            <div class="glowing-orb-container">
+                <div class="glowing-orb"></div>
+            </div>
+
+            <nav class="navigation-portals">
+                <a href="harry1.html" class="portal-link" aria-label="Journey to Hogwarts">
+                    <span class="portal-icon">🏰</span>
+                    To Hogwarts
+                </a>
+                <a href="harry2.html" class="portal-link" aria-label="Discover Ancient Spells">
+                    <span class="portal-icon">📜</span>
+                    Ancient Spells
+                </a>
+                <a href="harry3.html" class="portal-link" aria-label="Encounter Magical Creatures">
+                    <span class="portal-icon">🐉</span>
+                    Mystical Beasts
+                </a>
+            </nav>
+
+            <section class="invitation">
+                <p class="quote">"Happiness can be found, even in the darkest of times, if one only remembers to turn on the light."</p>
+                <p class="attribution">- Albus Dumbledore</p>
+            </section>
+        </main>
+
+        <footer class="page-footer">
+            <div class="footer-decoration"></div>
+            <p class="disclaimer">This website is a fan-made creation inspired by the Harry Potter series by J.K. Rowling. It is not affiliated with, endorsed by, or sponsored by Warner Bros., J.K. Rowling, or any of their respective affiliates or licensees. All Harry Potter trademarks, characters, and related indicia are the property of their respective owners.</p>
+            <p>© <span id="year"></span> STELLA. Your Magical Journey. Mischief Managed.</p>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
